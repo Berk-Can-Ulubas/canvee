@@ -9,6 +9,7 @@ screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
 player = pygame.Rect(300, 350, 50, 50)
 
+# Main game loop
 while True:
     pygame.draw.rect(screen, (255, 0, 0), player)
     key = pygame.key.get_pressed()
