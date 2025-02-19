@@ -1,3 +1,6 @@
+from model.color import Color
+from model.pawn_holder import Holder
+
 class Pawn:
     def __init__(self, color):
         # Überprüfen, dass color ein Color Enum ist
