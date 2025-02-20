@@ -13,7 +13,7 @@ class Pawn:
     def move(self, position):
         if not isinstance(position, Holder):
             raise ValueError("Position must be an instance of the Holder class.")
-         
+        
         self.position = position
 
     def __str__(self):
